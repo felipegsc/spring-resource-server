@@ -1,0 +1,4 @@
+oauth2:
+  client-id: resource-server
+  client-secret: resource-server-secret
+  check-token-endpoint: http://localhost:9090/oauth/check_token
