@@ -8,7 +8,7 @@ In order to use this project properly, it's necessary to use some Authorization 
 ```
 curl -i -X GET -H 'Authorization: Bearer <token>' <protocol>://<host>[:<port>]/hello
 ```
-- The `*<token>*` should be obtained from the Authorization Server
+- The `<token>` should be obtained from the Authorization Server
 
 There are another endpoints available for tests:
 - `/hello-user`: Available only to users with the role **USER** or **ADMIN**
